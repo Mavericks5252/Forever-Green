@@ -1,3 +1,18 @@
 body {
-    background: red;
+  height: 100%;
+  margin: 0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #363536),
+    color-stop(1, #000000)
+  );
+  background-image: -o-linear-gradient(bottom, #363536 0%, #000000 100%);
+  background-image: -moz-linear-gradient(bottom, #363536 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(bottom, #363536 0%, #000000 100%);
+  background-image: -ms-linear-gradient(bottom, #363536 0%, #000000 100%);
+  background-image: linear-gradient(to bottom, #363536 0%, #000000 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   }
