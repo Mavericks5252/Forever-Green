@@ -20,13 +20,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav">
-        <a href="#" class="nav-item nav-link active">Home</a>
-        <a href="#" class="nav-item nav-link">Profile</a>
-        <a href="#" class="nav-item nav-link">Messages</a>
-        <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
-      </div>
-      <div class="navbar-nav ms-auto">
-        <a href="#" class="nav-item nav-link">Login</a>
+        
+        <b style="font-size: 20px"><%= link_to "Home", home_home_path %>
+        <%= link_to "Products", home_products_path %>
+        <%= link_to "About Us", home_aboutus_path %> 
+        <%= link_to "Projects", root_path %>
+      
       </div>
     </div>
   </nav>
