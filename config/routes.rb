@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  resources :about_us
+  resources :products
   get 'home/products'
-  get 'home/aboutus'
+  get 'home/about'
   get 'home/home'
   
-  root "projects#index"
+  root to: "projects#index"
   resources :projects
 end
