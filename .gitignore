@@ -34,7 +34,7 @@
 /config/application.yml
 
 #gmail credentials
-/config/appconfig.yml
+/config/app_config.yml
 
 /public/packs
 /public/packs-test
